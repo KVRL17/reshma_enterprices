@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 80vh;
+    background: url('aboutimg.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sectionn {
+    height: 80vh;
+    background: url('missionre.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sectionnn {
+    height: 80vh;
+    background: url('vissionre.avif') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-overlay p {
+    font-size: 1.2rem;
+}
+
+/* Content Section */
+.content-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.content-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.content-section p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .hero-overlay p {
+        font-size: 1rem;
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-section p {
+        font-size: 0.9rem;
+    }
+}
