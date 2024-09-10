@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans");
+
 body {
   overflow-x: hidden;
 }
@@ -421,7 +422,6 @@ footer .copyright span {
   }
   .add-flex div:last-child {
     min-width: 400px;
-    margin: 50px;
   }
 
   .menu-images {
